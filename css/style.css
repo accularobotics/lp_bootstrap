@@ -1,0 +1,79 @@
+/* INSTRUÇÕES
+Crie um layout em Bootstrap para sua página de formulário do Projeto Integrador segundo as orientações abaixo:
+- Aplique um grid utilizando as classes "container-xl", "row" e "col". Não se esqueça de que a soma do tamanho das colunas na mesma linha deve ser igual a 12!
+- Além do CSS do Bootstrap, crie a sua própria folha de estilo para customizar as cores de destaque dos campos do formulário, utilizando o mesmo tom de azul da logo do cliente. Também modifique a cor do botão "enviar" para o mesmo tom de vermelho da logo do cliente. Utilize os códigos em anexo para exemplo de customização.
+- Insira um navbar utilizando um componente Bootstrap. Coloque neste navbar apenas a logo do cliente do lado esquerdo. O menu será adicionado posteriormente.
+
+ENTREGÁVEL
+Pasta compactada
+
+cliente-logo.jpeg
+Imagem
+
+custom-style.css
+Folha de estilo
+
+custom-page.html
+HTML
+
+Navbar · Bootstrap v5.3
+https://getbootstrap.com/docs/5.3/components/navbar/
+Comentários da turma
+Seus trabalhos
+Atribuído
+Comentários particulares */
+/* Change focus color to pink */
+
+
+
+*{
+
+    /* background-color: #f9f8f2; */
+    list-style-type: none
+}
+
+body{
+
+    background-color: #f9f8f2;
+    
+}
+
+
+
+
+.custom-input:focus {
+    border-color: #234395;
+    box-shadow: 0 0 0 0.2rem #234395; /* Light pink shadow */
+  }
+  
+  /* Custom color for labels */
+  .custom-input + label {
+    /* color: pink; */
+   color:#234395;
+  }
+  
+  /* Customize the submit button */
+  .btn-primary {
+    background-color: pink;
+    border-color: pink;
+  }
+  
+  .btn-primary:hover {
+    background-color:   #42f5aa ;
+    border-color:#42f5aa;
+    
+  }
+
+
+.botao{
+    display: inline;
+    float:left;
+   
+  }
+
+
+  
+/* #imagemdireita{
+    float: right;
+   } */
+  
